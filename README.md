@@ -6,13 +6,10 @@ Interactive Gapminder visualization — GDP vs Life Expectancy bubble chart anim
 - Live viz: https://hargun144.github.io/animint2-easy
 - Source code: viz.R
 
-## Medium Test
-Brownian Motion ported from the animation package.
-Particles move randomly — click a particle to track its distance from origin over time.
-- **Live viz:** https://hargun144.github.io/animint2-medium
-- **Source code:** medium_test.R
-## Medium Test 2 - K-means Clustering
-K-means clustering animation ported from the animation package.
-Watch clusters form step by step, click to select a cluster.
-- **Live viz:** https://hargun144.github.io/animint2-medium-kmeans
-- **Source code:** kmeans_test.R
+### Medium Test
+Simple Random Sampling ported from the animation package (`sample.simple`). 
+A population grid animates through random samples each iteration, 
+with a linked plot showing how the sample mean converges to the true population mean.
+
+- Live viz: https://hargun144.github.io/animint2-medium
+- Source code: medium_test.R
